@@ -3,8 +3,7 @@
   "name": "Budget Manager",
   "version": "1.0",
   "description": "Budget Manager extension to track your spending",
-
-
+  "permissions": ["storage"],
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
