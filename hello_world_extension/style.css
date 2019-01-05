@@ -1,0 +1,14 @@
+h2 {
+  color: blue;
+  font-style: italic;
+
+}
+
+input {
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: #cdcdcd;
+  color: blue;
+}
