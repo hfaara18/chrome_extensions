@@ -3,7 +3,7 @@
   "name": "Budget Manager",
   "version": "1.0",
   "description": "Budget Manager extension to track your spending",
-  "permissions": ["storage"],
+  "permissions": ["storage", "notifications", "contextMenus"],
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
@@ -13,5 +13,9 @@
     "default_icon": "icon16.png",
     "default_popup": "popup.html"
   },
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
 }
